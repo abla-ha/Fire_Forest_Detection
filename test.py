@@ -4,8 +4,8 @@ import cv2
 import math
 
 # Running real-time from webcam
-cap = cv2.VideoCapture('C:/Users/asus/OneDrive/Bureau/My path to learn AI/Machine learning/fire2.mp4')
-model = YOLO('C:/Users/asus/OneDrive/Bureau/My path to learn AI/Machine learning/best.pt')
+cap = cv2.VideoCapture('firevideo.mp4')
+model = YOLO('best.pt')
 
 # Reading the classes
 classnames = ['fire', 'smoke', 'other']
