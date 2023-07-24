@@ -8,7 +8,7 @@ cap = cv2.VideoCapture('firevideo.mp4')
 model = YOLO('best.pt')
 
 # Reading the classes
-classnames = ['fire', 'smoke', 'other']
+classnames = ['fire', 'smoke', 'default']
 
 if not cap.isOpened():
     print("Error: Could not open the video.")
